@@ -29,8 +29,12 @@
         padding: 14px 16px; 
         text-decoration: none;
       }
-      ul il a:hover{
+      ul il a:hover:not(.active){
         background-color:#111;
+        font-size:larger;
+      }
+      ul li a.active{
+        background-color:#04AA6D;
       }
     </style>
     <link href="style.css" rel="stylesheet" type="text/css"/>
@@ -39,7 +43,7 @@
     <nav>
       <ul>
       <li><a class="active" href="#">home</a></li>
-        <li><a href="#"> page 2</a></li>
+        <li><a href="#lesson2.html"> page 2</a></li>
         <li><a href="#"> page 3</a></li>
       </ul>
     </nav>
